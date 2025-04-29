@@ -48,16 +48,6 @@
 			path = Gome;
 			sourceTree = "<group>";
 		};
-		94C6D83F2DB81B6F009CBAFB /* GomeTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GomeTests;
-			sourceTree = "<group>";
-		};
-		94C6D8492DB81B6F009CBAFB /* GomeUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GomeUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				94C6D82D2DB81B6D009CBAFB /* Gome */,
-				94C6D83F2DB81B6F009CBAFB /* GomeTests */,
-				94C6D8492DB81B6F009CBAFB /* GomeUITests */,
 				94C6D82C2DB81B6D009CBAFB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				94C6D83E2DB81B6F009CBAFB /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				94C6D83F2DB81B6F009CBAFB /* GomeTests */,
-			);
 			name = GomeTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				94C6D8482DB81B6F009CBAFB /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				94C6D8492DB81B6F009CBAFB /* GomeUITests */,
 			);
 			name = GomeUITests;
 			packageProductDependencies = (
@@ -290,6 +272,7 @@
 				CODE_SIGN_ENTITLEMENTS = Gome/Gome.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 777XX46HDU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Gome/Info.plist;
@@ -319,6 +302,7 @@
 				CODE_SIGN_ENTITLEMENTS = Gome/Gome.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 777XX46HDU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Gome/Info.plist;
